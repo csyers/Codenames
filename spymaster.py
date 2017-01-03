@@ -79,8 +79,8 @@ class GameSpace:
 			pygame.init()
 			self.size = self.wifth, self.height = 640, 480
 			self.screen = pygame.display.set_mode(self.size)
-			pygame.display.set_caption("Parachutes")
-			self.bg = pygame.image.load("../media/background.png")
+			pygame.display.set_caption("Codenames")
+			self.bg = pygame.image.load("media/codenames_bg.png")
 			self.bg = pygame.transform.scale(self.bg, (640,480))
 
 			# disconnected image - when dropper disconnects, this image shows
